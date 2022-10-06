@@ -13,6 +13,16 @@ public class C03_startsWith {
 
         System.out.println(str.startsWith("")); // true, hiçlik
 
+        System.out.println(str.startsWith("acarken",6)); // true
+
+        System.out.println(str.startsWith("manti",0)); // true
+
+        System.out.println(str.startsWith("manti",10)); // false
+
+
+
+
+
 
 
 
